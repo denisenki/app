@@ -29,7 +29,7 @@ let TargetAudienceSize = '';
 // let tab = []
 
 app.get("/", function (request, response) {
-    response.sendFile(__dirname + "/index.html");
+    response.send('Создание сводной завершено')
 });
 
 app.post("/list", function (request, response) {
